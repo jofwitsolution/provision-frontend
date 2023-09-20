@@ -11,7 +11,7 @@ export const GlobalContextProvider = ({ children }) => {
     text: "",
   });
   const [showGetStarted, setGetStarted] = useState(false);
-  const [toggleSidebar, setToggleSidebar] = useState(false);
+  const [isSidebarOpen, setSidebarOpen] = useState(false);
   const [toggleMobileMenu, setToggleMobileMenu] = useState(false);
 
   useEffect(() => {
@@ -23,8 +23,8 @@ export const GlobalContextProvider = ({ children }) => {
     <GlobalContext.Provider
       value={{
         currentUser,
-        toggleSidebar,
-        setToggleSidebar,
+        isSidebarOpen,
+        setSidebarOpen,
         toggleMobileMenu,
         setToggleMobileMenu,
         showGetStarted,

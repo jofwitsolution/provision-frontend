@@ -1,167 +1,166 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import {
   AiFillCloseCircle,
   AiOutlineTeam,
   AiOutlineLogout,
   AiOutlineLogin,
+  AiOutlineClose,
 } from "react-icons/ai";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { HiHome, HiOfficeBuilding } from "react-icons/hi";
-import { MdMiscellaneousServices, MdOutlineContacts } from "react-icons/md";
+import {
+  MdMiscellaneousServices,
+  MdOutlineChildCare,
+  MdOutlineContacts,
+} from "react-icons/md";
 import { ImOffice } from "react-icons/im";
-import { FaUserCircle } from "react-icons/fa";
+import { BsSearch, BsPeople, BsChevronDown } from "react-icons/bs";
 import auth from "../../services/authService";
 import { GlobalContext } from "../../providers/ContextProvider";
+import { images } from "../../constants/images";
 
-const activeStyle =
-  "px-5 flex items-center gap-3 font-semibold hover:text-primary border-r-4 border-white  transition-all duration-200 ease-in-out capitalize";
-const notActiveStyle =
-  "px-5 flex items-center gap-3 font-semibold hover:text-primary transition-all duration-200 ease-in-out capitalize";
+const DropDown = ({ title, links, toggleSidebar }) => {
+  const [isDropdownOpen, setDropdownOpen] = useState(false);
 
-const Sidebar = () => {
-  const { toggleSidebar, setToggleSidebar, setToggleMobileMenu, currentUser } =
-    useContext(GlobalContext);
-  const handleCloseSidebar = () => {
-    if (toggleSidebar) setToggleSidebar(false);
+  const toggleDropdown = () => {
+    setDropdownOpen(!isDropdownOpen);
   };
 
   return (
     <>
-      {toggleSidebar && (
-        <div className="text-white lg:hidden fixed z-[2000] top-0 w-4/5 bg-blackBackground h-screen overflow-y-auto shadow-md animate-slide-in">
-          <div className="absolute w-full flex justify-between items-center p-2">
-            <div className="text-primary text-2xl font-semibold font-mono"></div>
-            <AiFillCloseCircle
-              fontSize={30}
-              className="cursor-pointer text-secondary"
-              onClick={() => setToggleSidebar(false)}
-            />
-          </div>
-
-          <div className="flex flex-col gap-5 mt-20">
-            <NavLink
-              to="/"
-              className={({ isActive }) =>
-                isActive ? `${activeStyle}` : `${notActiveStyle}`
-              }
-              onClick={() => handleCloseSidebar()}
-            >
-              <HiHome fontSize={20} className="text-primary" />
-              HOME
-            </NavLink>
-            <hr />
-            <NavLink
-              to="/our-company"
-              className={({ isActive }) =>
-                isActive ? `${activeStyle}` : `${notActiveStyle}`
-              }
-              onClick={() => handleCloseSidebar()}
-            >
-              <ImOffice fontSize={20} className="text-primary" />
-              OUR COMPANY
-            </NavLink>
-            <hr />
-            <NavLink
-              to="/guardenforcement-usa"
-              className={({ isActive }) =>
-                isActive ? `${activeStyle}` : `${notActiveStyle}`
-              }
-              onClick={() => handleCloseSidebar()}
-            >
-              <HiOfficeBuilding fontSize={20} className="text-primary" />
-              GE USA
-            </NavLink>
-            <hr />
-            <NavLink
-              to="/guardenforcement-nigeria"
-              className={({ isActive }) =>
-                isActive ? `${activeStyle}` : `${notActiveStyle}`
-              }
-              onClick={() => handleCloseSidebar()}
-            >
-              <HiOfficeBuilding fontSize={20} className="text-primary" />
-              GE NIGERIA
-            </NavLink>
-            <hr />
-            <NavLink
-              to="/services"
-              className={({ isActive }) =>
-                isActive ? `${activeStyle}` : `${notActiveStyle}`
-              }
-              onClick={() => handleCloseSidebar()}
-            >
-              <MdMiscellaneousServices fontSize={20} className="text-primary" />
-              SERVICES
-            </NavLink>
-            <hr />
-            <NavLink
-              to="/recruitments"
-              className={({ isActive }) =>
-                isActive ? `${activeStyle}` : `${notActiveStyle}`
-              }
-              onClick={() => handleCloseSidebar()}
-            >
-              <AiOutlineTeam fontSize={20} className="text-primary" />
-              RECRUITMENTS
-            </NavLink>
-            <hr />
-            <NavLink
-              to="/contact"
-              className={({ isActive }) =>
-                isActive ? `${activeStyle}` : `${notActiveStyle}`
-              }
-              onClick={() => handleCloseSidebar()}
-            >
-              <MdOutlineContacts fontSize={20} className="text-primary" />
-              CONTACT
-            </NavLink>
-            <hr />
-            {!currentUser && (
-              <>
-                <NavLink
-                  to="/login"
-                  className={({ isActive }) =>
-                    isActive ? `${activeStyle}` : `${notActiveStyle}`
-                  }
-                  onClick={() => handleCloseSidebar()}
-                >
-                  <AiOutlineLogin fontSize={20} className="text-primary" />
-                  LOG IN
-                </NavLink>
-                <hr />
-              </>
-            )}
-
-            {currentUser && (
-              <>
-                <span
-                  className={`${notActiveStyle}`}
-                  onClick={() => {
-                    handleCloseSidebar();
-                    setToggleMobileMenu(true);
-                  }}
-                >
-                  <FaUserCircle fontSize={20} className="text-primary" />
-                  USER
-                </span>
-                <hr />
-
-                <a
-                  href="/"
-                  className={`${notActiveStyle}`}
-                  onClick={() => {
-                    handleCloseSidebar();
-                    auth.logout();
-                  }}
-                >
-                  <AiOutlineLogout fontSize={20} className="text-primary" />
-                  SIGN OUT
-                </a>
-              </>
-            )}
-          </div>
+      <div
+        className="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-primary text-white"
+        onClick={toggleDropdown}
+      >
+        <HiOfficeBuilding />
+        <div className="flex justify-between w-full items-center">
+          <span className="text-[15px] ml-4 text-gray-200 font-bold">
+            {title}
+          </span>
+          <span
+            className={`text-sm ${isDropdownOpen ? "rotate-180" : ""}`}
+            id="arrow"
+          >
+            <BsChevronDown />
+          </span>
         </div>
-      )}
+      </div>
+      <div
+        className={`text-left text-sm mt-2 w-4/5 mx-auto font-bold ${
+          isDropdownOpen ? "" : "hidden"
+        }`}
+      >
+        {links.map((link) => (
+          <Link
+            key={link.label}
+            onClick={toggleSidebar}
+            to={link.path}
+            className="p-2 hover:bg-primary rounded-md mt-1 block"
+          >
+            {link.label}
+          </Link>
+        ))}
+      </div>
+    </>
+  );
+};
+
+const linkOne = [
+  { label: "Rent a home", path: "/rent-a-home" },
+  { label: "Buy a home", path: "/buy-a-home" },
+  { label: "New developments", path: "/new-developments" },
+];
+
+const linkTwo = [
+  { label: "Ways to get involved", path: "/ways-to-get-involved" },
+  { label: "Our customer panel", path: "/our-customer-panel" },
+  { label: "Community investment", path: "/community-investment" },
+];
+
+const Sidebar = () => {
+  const { isSidebarOpen, setSidebarOpen } = useContext(GlobalContext);
+
+  const [isDropdownOpen, setDropdownOpen] = useState(false);
+
+  const toggleSidebar = () => {
+    setSidebarOpen(!isSidebarOpen);
+  };
+
+  const toggleDropdown = () => {
+    setDropdownOpen(!isDropdownOpen);
+  };
+
+  return (
+    <>
+      <div
+        className={`sidebar ${
+          isSidebarOpen ? "" : "hidden"
+        } fixed text-white top-0 bottom-0 left-0 p-2 w-[300px] lg:hidden overflow-y-auto text-center bg-black-300`}
+      >
+        <div className="text-gray-100 text-xl">
+          <div className="p-2.5 mt-1 flex items-center">
+            <img
+              src={images.primary_logo}
+              alt="guard enforcement"
+              className="w-[160px] md:w-[250px]"
+            />
+            <span
+              onClick={toggleSidebar}
+              className="cursor-pointer absolute top-[10px] right-[10px]"
+            >
+              <AiOutlineClose />
+            </span>
+          </div>
+          <div className="my-2 bg-gray-600 h-[1px]"></div>
+        </div>
+        <div className="p-2.5 flex items-center rounded-md px-4 duration-300 cursor-pointer bg-grey-500 text-white">
+          <BsSearch className="text-sm" />
+          <input
+            type="text"
+            placeholder="Search"
+            className="text-[15px] ml-4 w-full bg-transparent focus:outline-none"
+          />
+        </div>
+        <Link
+          onClick={toggleSidebar}
+          to="/"
+          className="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-primary text-white"
+        >
+          <HiHome className="" />
+          <span className="text-[15px] ml-4 font-bold">Home</span>
+        </Link>
+        <Link
+          onClick={toggleSidebar}
+          to="/about"
+          className="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-primary text-white"
+        >
+          <BsPeople className="" />
+          <span className="text-[15px] ml-4 font-bold">About</span>
+        </Link>
+        <Link
+          onClick={toggleSidebar}
+          to="/care-and-support"
+          className="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-primary text-white"
+        >
+          <MdOutlineChildCare className="" />
+          <span className="text-[15px] ml-4 font-bold">Care and Support</span>
+        </Link>
+
+        <DropDown title={"Accommodation"} links={linkOne} />
+        <DropDown title={"Communities"} links={linkTwo} />
+
+        <div className="my-4 bg-grey-200 h-[1px]"></div>
+
+        <Link
+          to="/contact"
+          className="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 hover:bg-primary text-white"
+        >
+          <MdOutlineContacts />
+          <span className="text-[15px] ml-4 text-gray-200 font-bold">
+            Contact
+          </span>
+        </Link>
+      </div>
     </>
   );
 };

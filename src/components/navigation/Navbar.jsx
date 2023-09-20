@@ -6,7 +6,7 @@ import { GlobalContext } from "../../providers/ContextProvider";
 import { images } from "../../constants/images";
 
 const Navbar = () => {
-  const { currentUser, setToggleSidebar } = useContext(GlobalContext);
+  const { currentUser, setSidebarOpen } = useContext(GlobalContext);
   const userIconRef = useRef(null);
 
   const [showMenu, setShowMenu] = useState(false);
@@ -124,7 +124,7 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-          <div className="">
+          {/* <div className="">
             <NavLink
               to="/news"
               className={({ isActive }) =>
@@ -133,7 +133,7 @@ const Navbar = () => {
             >
               News
             </NavLink>
-          </div>
+          </div> */}
           <div className="relative">
             <NavLink
               to="/contact"
@@ -151,7 +151,7 @@ const Navbar = () => {
         <div className="flex lg:hidden">
           <HiMenu
             fontSize={30}
-            onClick={() => setToggleSidebar(true)}
+            onClick={() => setSidebarOpen(true)}
             className="cursor-pointer"
           />
         </div>
