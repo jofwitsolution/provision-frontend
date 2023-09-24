@@ -50,6 +50,7 @@ export default {
       colors: {
         gray: "#919194",
         primary: "#964B00",
+        secondary: "#714111",
         primaryAlt: "#f52626",
         black: {
           DEFAULT: "#000",
@@ -59,6 +60,7 @@ export default {
           400: "#242C38",
         },
         grey: {
+          50: "#f8f6f6",
           100: "#969BA5",
           200: "#55616D",
           400: "#D3D3D3",
