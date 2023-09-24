@@ -16,7 +16,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white shadow-md h-[70px] md:h-[90px] fixed top-0 left-0 w-full">
+    <nav className="bg-white shadow-md h-[70px] md:h-[90px] z-[400] fixed top-0 left-0 w-full">
       <div className="max-w-[1440px] h-full mx-auto font-[500] flex justify-between items-center px-[24px]">
         <div className="">
           <a href="/">
