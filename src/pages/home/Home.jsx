@@ -4,6 +4,9 @@ import HomeHeroSection from "./HomeHeroSection";
 import Sidebar from "../../components/navigation/Sidebar";
 import HomeSearchSect from "./HomeSearchSect";
 import HomeFindSect from "./HomeFindSect";
+import HomeCareSect from "./HomeCareSect";
+import HomeManageSect from "./HomeManageSect";
+import WhyChooseUs from "../../components/WhyChooseUs";
 
 const Home = () => {
   return (
@@ -13,6 +16,9 @@ const Home = () => {
       <HomeHeroSection />
       <HomeSearchSect />
       <HomeFindSect />
+      <HomeCareSect />
+      <HomeManageSect />
+      <WhyChooseUs />
     </>
   );
 };
