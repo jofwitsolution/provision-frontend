@@ -1,20 +1,21 @@
 import React, { useState } from "react";
 import classNames from "classnames";
 
-const AccordionItem = ({ title, content }) => {
+const AccordionItem = ({ title, content, openFirst, setOpenFirst }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleAccordion = () => {
     setIsOpen(!isOpen);
+    setOpenFirst(false);
   };
 
-  const openStyle = isOpen ? "block h-max" : "hidden h-0";
+  const openStyle = isOpen || openFirst ? "block h-max" : "hidden h-0";
 
   return (
     <div className="shadow">
       <div
         className={classNames("shadow", {
-          "bg-secondary text-white": isOpen,
+          "bg-secondary text-white": isOpen || openFirst,
         })}
       >
         <button
@@ -47,10 +48,17 @@ const AccordionItem = ({ title, content }) => {
 };
 
 const Accordion = ({ items }) => {
+  const [openFirst, setOpenFirst] = useState(true);
+
   return (
     <div className="space-y-2">
       {items.map((item, index) => (
-        <AccordionItem key={index} {...item} />
+        <AccordionItem
+          key={index}
+          {...item}
+          openFirst={index === 0 ? openFirst : false}
+          setOpenFirst={setOpenFirst}
+        />
       ))}
     </div>
   );

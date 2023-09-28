@@ -2,6 +2,7 @@ import React from "react";
 import styles from "../styles/tailwind";
 import Accordion from "./Accordion";
 import { reasonsToChooseProVision } from "../data/content";
+import { images } from "../constants/images";
 
 const WhyChooseUs = () => {
   return (
@@ -26,8 +27,19 @@ const WhyChooseUs = () => {
             well-being.
           </p>
         </div>
-        <div className="md:w-[40rem]">
-          <Accordion items={reasonsToChooseProVision} />
+        <div className="flex flex-col lg:flex-row gap-[2rem] justify-between">
+          <div className="md:w-[40rem] lg:w-[45%]">
+            <Accordion items={reasonsToChooseProVision} />
+          </div>
+          <div className="lg:w-[40%]">
+            <div className="relative">
+              <img
+                src={images.people_5}
+                alt="provision 2"
+                className="rounded-full"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </section>
