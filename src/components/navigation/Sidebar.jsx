@@ -8,6 +8,7 @@ import {
 } from "react-icons/ai";
 import { Link, NavLink } from "react-router-dom";
 import { HiHome, HiOfficeBuilding } from "react-icons/hi";
+import { IoIosPeople } from "react-icons/io";
 import {
   MdMiscellaneousServices,
   MdOutlineChildCare,
@@ -101,7 +102,7 @@ const Sidebar = () => {
           <div className="p-2.5 mt-1 flex items-center">
             <img
               src={images.primary_logo}
-              alt="guard enforcement"
+              alt="provision property"
               className="w-[160px] md:w-[250px]"
             />
             <span
@@ -139,15 +140,28 @@ const Sidebar = () => {
         </Link>
         <Link
           onClick={toggleSidebar}
-          to="/care-and-support"
+          to="/accommodation"
+          className="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-primary text-white"
+        >
+          <HiOfficeBuilding className="" />
+          <span className="text-[15px] ml-4 font-bold">Accommodation</span>
+        </Link>
+        <Link
+          onClick={toggleSidebar}
+          to="/support"
           className="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-primary text-white"
         >
           <MdOutlineChildCare className="" />
-          <span className="text-[15px] ml-4 font-bold">Care and Support</span>
+          <span className="text-[15px] ml-4 font-bold">Support</span>
         </Link>
-
-        <DropDown title={"Accommodation"} links={linkOne} />
-        <DropDown title={"Communities"} links={linkTwo} />
+        <Link
+          onClick={toggleSidebar}
+          to="/communities"
+          className="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-primary text-white"
+        >
+          <IoIosPeople className="" />
+          <span className="text-[15px] ml-4 font-bold">Communities</span>
+        </Link>
 
         <div className="my-4 bg-grey-200 h-[1px]"></div>
 

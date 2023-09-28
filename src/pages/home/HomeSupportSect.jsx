@@ -3,7 +3,7 @@ import styles from "../../styles/tailwind";
 import { Link } from "react-router-dom";
 import { images } from "../../constants/images";
 
-const HomeCareSect = () => {
+const HomeSupportSect = () => {
   return (
     <section className="">
       <div
@@ -15,15 +15,16 @@ const HomeCareSect = () => {
           </div>
           <div className="lg:w-[45%]">
             <h3 className="text-[1.5rem] leading-[2rem] mb-[1rem] font-[600]">
-              Our Care and Support Service
+              Support Service
             </h3>
             <p className="leading-[2rem]">
-              We provide an extensive array of caring and supportive services,
-              encompassing residential care, supported living, extra care
-              schemes, community support, and in-home care options.
+              We specialize in helping individuals maintain their tenancy and
+              prepare for self-sufficient living. Our mission is to provide
+              inclusive and supported living experiences tailored to the unique
+              needs and preferences of our clients.
             </p>
             <div className="mt-[1.9rem] text-white">
-              <Link to="/care-and-support" className={`${styles.buttonOne}`}>
+              <Link to="/support" className={`${styles.buttonOne}`}>
                 Learn more
               </Link>
             </div>
@@ -34,4 +35,4 @@ const HomeCareSect = () => {
   );
 };
 
-export default HomeCareSect;
+export default HomeSupportSect;

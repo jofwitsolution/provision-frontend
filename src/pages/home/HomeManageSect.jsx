@@ -11,17 +11,18 @@ const HomeManageSect = () => {
       >
         <div className="flex flex-col lg:flex-row lg:items-center gap-[2.5rem] justify-between">
           <div className="lg:w-[45%]">
-            <h3 className="text-[1.5rem] mb-[1rem] font-[600]">
-              Home Management
-            </h3>
+            <h3 className="text-[1.5rem] mb-[1rem] font-[600]">Communities</h3>
             <p className="leading-[2rem]">
-              Take charge of your home with comprehensive information on home
-              maintenance, repair, rent, service charges, as well as details
-              about your tenancy agreement or lease.
+              Our community development is driven by our core values, including
+              integrity, transparency, and a deep commitment to the well-being
+              of the communities we serve. Our goal is to create positive,
+              lasting change that improves the lives of residents and
+              contributes to the growth and vitality of the community as a
+              whole.
             </p>
             <div className="mt-[1.9rem] text-white">
-              <Link to="/manage-your-home" className={`${styles.buttonOne}`}>
-                Manage your home
+              <Link to="/communities" className={`${styles.buttonOne}`}>
+                Learn more
               </Link>
             </div>
           </div>

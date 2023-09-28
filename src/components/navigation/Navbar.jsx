@@ -38,7 +38,17 @@ const Navbar = () => {
               About
             </NavLink>
           </div>
-          <div className="relative group">
+          <div className="">
+            <NavLink
+              to="/accommodation"
+              className={({ isActive }) =>
+                isActive ? "text-primary" : "hover:text-primary"
+              }
+            >
+              Accommodation
+            </NavLink>
+          </div>
+          {/* <div className="relative group">
             <NavLink
               to="#"
               className={({ isActive }) =>
@@ -75,18 +85,28 @@ const Navbar = () => {
                 </NavLink>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="">
             <NavLink
-              to="/care-and-support"
+              to="/support"
               className={({ isActive }) =>
                 isActive ? "text-primary" : "hover:text-primary"
               }
             >
-              Care and Support
+              Support
             </NavLink>
           </div>
-          <div className="relative group">
+          <div className="">
+            <NavLink
+              to="/communities"
+              className={({ isActive }) =>
+                isActive ? "text-primary" : "hover:text-primary"
+              }
+            >
+              Communities
+            </NavLink>
+          </div>
+          {/* <div className="relative group">
             <NavLink
               to="#"
               className={({ isActive }) =>
@@ -123,7 +143,7 @@ const Navbar = () => {
                 </NavLink>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* <div className="">
             <NavLink
               to="/news"
