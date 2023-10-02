@@ -6,6 +6,8 @@ const styles = {
   paddingBottom: "pb-[3rem] sm:pb-[5rem]",
   // hero section
   homeHero: "h-[35rem] lg:h-[60vh] bg-home-hero bg-no-repeat bg-cover bg-fit",
+  aboutHero:
+    "h-[15rem] lg:h-[30vh] bg-about-hero bg-no-repeat bg-cover bg-center",
   // button
   buttonOne:
     "flex items-center w-max bg-primary px-4 py-2 md:px-5 md:py-3 rounded-xl hover:bg-primaryAlt",

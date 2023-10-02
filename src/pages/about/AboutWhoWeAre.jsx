@@ -2,7 +2,7 @@ import React from "react";
 import styles from "../../styles/tailwind";
 import { images } from "../../constants/images";
 
-const WhoWeAre = () => {
+const AboutWhoWeAre = () => {
   return (
     <section>
       <div
@@ -54,4 +54,4 @@ const WhoWeAre = () => {
   );
 };
 
-export default WhoWeAre;
+export default AboutWhoWeAre;
