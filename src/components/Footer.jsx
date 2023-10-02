@@ -12,116 +12,65 @@ const Footer = () => {
   };
 
   return (
-    <footer className="">
-      <div
-        className={`${styles.footerBgImg} flex flex-col items-center pb-[5rem] md:pb-0 pt-[2rem] md:pt-[6rem]`}
-      >
-        <div className={`${styles.headerTwoWhite}`}>Recent clients</div>
-        <div className={`${styles.maxWidth} mt-5 md:mt-10`}>
-          <div className="flex flex-col md:flex-row justify-center items-center gap-8 ">
-            <div>
-              <img src={images.den} alt="den" />
-            </div>
-            <div>
-              <img src={images.farm} alt="farm" />
-            </div>
-            <div>
-              <img src={images.des} alt="des" />
-            </div>
-          </div>
-        </div>
-      </div>
-      <motion.div
-        whileInView={{ opacity: [0, 1], y: [50, 0] }}
-        transition={{ duration: 1, type: "tween" }}
-        className="xxs:w-[96%] md:w-[80%] xl:max-w-[1100px] mx-auto flex flex-col lg:flex-row justify-between items-start lg:items-center py-6 px-6 md:py-14 md:px-20 mb-20 -mt-[5rem] bg-secondaryBackground rounded-lg"
-      >
-        <div>
-          <p className="text-primary font-bold mb-2 md:mb-4">
-            For every type of business
-          </p>
-          <div className={`${styles.headerFourBlack} xxs:text-[1rem] mb-0`}>
-            Entrust Your Safety to Us And We <br /> Will Keep You Safe
-          </div>
-        </div>
-        <div className="mt-5">
-          <a href="/contact" className={`${styles.buttonOne} text-white`}>
-            CONTACT US
-          </a>
-        </div>
-      </motion.div>
+    <footer className="bg-black-400 pt-[5rem] text-white">
       <div className="xxs:w-[88%] md:w-[80%] xl:max-w-[1100px] mx-auto flex flex-wrap flex-col sm:flex-row justify-between items-start border-b-[1px] border-gray border-solid pb-5 sm:pb-14 mb-6">
         <div className="mb-4 sm:mb-0">
-          <h4 className={`${styles.headerThreeBlack} mb-2 sm:mb-4`}>Company</h4>
+          <h4 className={`text-[1.3rem] font-[700] mb-2 sm:mb-4`}>Company</h4>
           <ul className="text-[0.8rem] md:text-[1rem]">
             <li className="mb-2">
-              <a
-                href="/terms-and-conditions"
-                className="text-black hover:text-primary"
-              >
+              <a href="/terms-and-conditions" className="hover:text-primary">
                 Terms & Conditions
               </a>
             </li>
             <li className="mb-2">
-              <a
-                href="/privacy-policy"
-                className="text-black hover:text-primary"
-              >
+              <a href="/privacy-policy" className="hover:text-primary">
                 Privacy Policy
               </a>
             </li>
             <li className="mb-2">
-              <a href="/contact" className="text-black hover:text-primary">
+              <a href="/contact" className="hover:text-primary">
                 Support
               </a>
             </li>
             <li className="mb-2">
-              <a href="/faq" className="text-black hover:text-primary">
+              <a href="/faq" className="hover:text-primary">
                 FAQ
               </a>
             </li>
           </ul>
         </div>
         <div className="mb-4 sm:mb-0">
-          <h4 className={`${styles.headerThreeBlack} mb-2 sm:mb-4`}>
+          <h4 className={`text-[1.3rem] font-[700] mb-2 sm:mb-4`}>
             Quick Links
           </h4>
           <ul className="text-[0.8rem] md:text-[1rem]">
             <li className="mb-2">
-              <a href="/our-company" className="text-black hover:text-primary">
+              <a href="/about" className="hover:text-primary">
                 About
               </a>
             </li>
             <li className="mb-2">
-              <a href="/services" className="text-black hover:text-primary">
-                Services
+              <a href="/accommodation" className="hover:text-primary">
+                Accommodation
               </a>
             </li>
             <li className="mb-2">
-              <a
-                href="/guardenforcement-nigeria"
-                className="text-black hover:text-primary"
-              >
-                Nigeria
+              <a href="/support" className="hover:text-primary">
+                Support
               </a>
             </li>
             <li className="mb-2">
-              <a
-                href="/guardenforcement-usa"
-                className="text-black hover:text-primary"
-              >
-                USA
+              <a href="/communities" className="hover:text-primary">
+                Communities
               </a>
             </li>
           </ul>
         </div>
         <div className="mb-4 sm:mb-0">
-          <h4 className={`${styles.headerThreeBlack} mb-2 sm:mb-4`}>
-            Subscribe
-          </h4>
+          <h4 className={`text-[1.3rem] font-[700] mb-2 sm:mb-4`}>Subscribe</h4>
           <p className="text-[0.8rem]">
             Subscribe to get latest news
-            <br /> about events and pricing
+            <br /> about events and development
           </p>
           <div>
             <form onSubmit={(e) => handleSubmit(e)}>
@@ -141,59 +90,59 @@ const Footer = () => {
           </div>
         </div>
         <div className="mb-4 sm:mb-0">
-          <h4 className={`${styles.headerThreeBlack} mb-2 sm:mb-4`}>
-            Guard <span className="text-primary">Enforcement</span>
+          <h4 className={`text-[1.3rem] font-[700] mb-2 sm:mb-4`}>
+            <span className="text-primary">ProVision</span> Property
           </h4>
           <ul className="text-[0.8rem] md:text-[1rem]">
             <li className="mb-2">
               <a
                 href="mailto: info@guardenforcement.com"
-                className="text-black hover:text-primary"
+                className="hover:text-primary"
               >
-                info@guardenforcement.com
+                info@provisionsupportservice.co.uk
               </a>
             </li>
             <li className="mb-2">
               <a
-                href="tel: +1 (510) 706-1906"
+                href="tel: +44 7828 887031"
                 className="text-primary hover:underline"
               >
-                +1 (510) 706-1906
+                +44 7828 887031
               </a>
             </li>
             <li className="mb-2">
               <a
-                href="tel: +234 (813) 117-4459"
+                href="tel: +44 7581 467406"
                 className="text-primary hover:underline"
               >
-                +234 (813) 117-4459
+                +44 7581 467406
               </a>
             </li>
           </ul>
         </div>
       </div>
-      <div className="xxs:w-[88%] md:w-[80%] xl:max-w-[1100px] mx-auto flex flex-col sm:flex-row justify-between items-start pb-6 gap-4">
-        <div>Copyright © 2020</div>
+      <div className="xxs:w-[88%] md:w-[80%] xl:max-w-[1100px] mx-auto flex flex-col-reverse sm:flex-row justify-between items-start pb-6 gap-4">
+        <div>Copyright © 2023</div>
         <div className="flex gap-5">
           <a
-            href="https://www.facebook.com/profile.php?id=100088318370383&mibextid=LQQJ4d"
-            className="text-blackText hover:text-primary"
+            href="https://www.facebook.com"
+            className="text-white hover:text-primary"
             target={"-blank"}
             rel="noreferrer"
           >
             <FaFacebookF fontSize={18} />{" "}
           </a>
           <a
-            href="https://twitter.com/gesp_ltd?s=21&t=4rs8Zonh98pLRGGpzFDwxA"
-            className="text-blackText hover:text-primary"
+            href="https://twitter.com"
+            className="text-white hover:text-primary"
             target={"-blank"}
             rel="noreferrer"
           >
             <FaTwitter fontSize={18} />{" "}
           </a>
           <a
-            href="https://instagram.com/gesp_ltd?igshid=YmMyMTA2M2Y="
-            className="text-blackText hover:text-primary"
+            href="https://instagram.com"
+            className="text-white hover:text-primary"
             target={"-blank"}
             rel="noreferrer"
           >

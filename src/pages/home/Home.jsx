@@ -6,7 +6,9 @@ import HomeSearchSect from "./HomeSearchSect";
 import HomeFindSect from "./HomeFindSect";
 import HomeSupportSect from "./HomeSupportSect";
 import HomeManageSect from "./HomeManageSect";
-import WhyChooseUs from "../../components/WhyChooseUs";
+import WhyChooseUs from "../../components/ui/WhyChooseUs";
+import Footer from "../../components/Footer";
+import WhoWeAre from "../../components/ui/WhoWeAre";
 
 const Home = () => {
   return (
@@ -14,11 +16,13 @@ const Home = () => {
       <Navbar />
       <Sidebar />
       <HomeHeroSection />
+      <WhoWeAre />
       <HomeSearchSect />
       <HomeFindSect />
       <HomeSupportSect />
       <HomeManageSect />
       <WhyChooseUs />
+      <Footer />
     </>
   );
 };

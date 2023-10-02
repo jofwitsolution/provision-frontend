@@ -8,6 +8,7 @@ import people_2_small from "../assets/images/people-2-small.jpg";
 import people_3_small from "../assets/images/people-3-small.jpg";
 import people_4_small from "../assets/images/people-4-small.jpg";
 import people_5 from "../assets/images/people-5.jpg";
+import people_6 from "../assets/images/people-6.jpg";
 
 import provision_1 from "../assets/images/provision-1.jpg";
 import provision_2 from "../assets/images/provision-2.jpg";
@@ -23,6 +24,7 @@ export const images = {
   people_3_small,
   people_4_small,
   people_5,
+  people_6,
 
   provision_1,
   provision_2,

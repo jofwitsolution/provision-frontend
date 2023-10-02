@@ -1,8 +1,8 @@
 import React from "react";
-import styles from "../styles/tailwind";
+import styles from "../../styles/tailwind";
 import Accordion from "./Accordion";
-import { reasonsToChooseProVision } from "../data/content";
-import { images } from "../constants/images";
+import { reasonsToChooseProVision } from "../../data/content";
+import { images } from "../../constants/images";
 
 const WhyChooseUs = () => {
   return (
