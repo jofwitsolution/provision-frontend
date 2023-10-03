@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../../styles/tailwind";
 import { images } from "../../constants/images";
+import BouncingImage from "../../components/BouncingImage";
 
 const AboutWhoWeAre = () => {
   return (
@@ -41,11 +42,12 @@ const AboutWhoWeAre = () => {
           </div>
           <div className="lg:w-[40%]">
             <div className="relative">
-              <img
+              {/* <img
                 src={images.people_6}
                 alt="provision 2"
                 className="rounded-full md:max-w-[25rem]"
-              />
+              /> */}
+              <BouncingImage />
             </div>
           </div>
         </div>

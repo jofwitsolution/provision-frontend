@@ -5,6 +5,7 @@ import {
   AiOutlineLogout,
   AiOutlineLogin,
   AiOutlineClose,
+  AiFillInstagram,
 } from "react-icons/ai";
 import { Link, NavLink } from "react-router-dom";
 import { HiHome, HiOfficeBuilding } from "react-icons/hi";
@@ -19,6 +20,7 @@ import { BsSearch, BsPeople, BsChevronDown } from "react-icons/bs";
 import auth from "../../services/authService";
 import { GlobalContext } from "../../providers/ContextProvider";
 import { images } from "../../constants/images";
+import { FaFacebookF, FaTwitter } from "react-icons/fa";
 
 const DropDown = ({ title, links, toggleSidebar }) => {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
@@ -182,6 +184,32 @@ const Sidebar = () => {
             Contact
           </span>
         </Link>
+        <div className="flex gap-5 p-2.5 mt-3">
+          <a
+            href="https://www.facebook.com"
+            className="text-white hover:text-primary"
+            target={"-blank"}
+            rel="noreferrer"
+          >
+            <FaFacebookF fontSize={18} />{" "}
+          </a>
+          <a
+            href="https://twitter.com"
+            className="text-white hover:text-primary"
+            target={"-blank"}
+            rel="noreferrer"
+          >
+            <FaTwitter fontSize={18} />{" "}
+          </a>
+          <a
+            href="https://instagram.com"
+            className="text-white hover:text-primary"
+            target={"-blank"}
+            rel="noreferrer"
+          >
+            <AiFillInstagram fontSize={18} />{" "}
+          </a>
+        </div>
       </div>
     </>
   );
