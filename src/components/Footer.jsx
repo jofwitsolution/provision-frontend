@@ -28,6 +28,11 @@ const Footer = () => {
               </a>
             </li>
             <li className="mb-2">
+              <a href="/referrals" className="hover:text-primary">
+                Referrals
+              </a>
+            </li>
+            <li className="mb-2">
               <a href="/contact" className="hover:text-primary">
                 Support
               </a>

@@ -14,7 +14,7 @@ import {
   MdOutlineChildCare,
   MdOutlineContacts,
 } from "react-icons/md";
-import { ImOffice } from "react-icons/im";
+import { VscReferences } from "react-icons/vsc";
 import { BsSearch, BsPeople, BsChevronDown } from "react-icons/bs";
 import auth from "../../services/authService";
 import { GlobalContext } from "../../providers/ContextProvider";
@@ -161,6 +161,14 @@ const Sidebar = () => {
         >
           <IoIosPeople className="" />
           <span className="text-[15px] ml-4 font-bold">Communities</span>
+        </Link>
+        <Link
+          onClick={toggleSidebar}
+          to="/referrals"
+          className="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-primary text-white"
+        >
+          <VscReferences className="" />
+          <span className="text-[15px] ml-4 font-bold">Referrals</span>
         </Link>
 
         <div className="my-4 bg-grey-200 h-[1px]"></div>

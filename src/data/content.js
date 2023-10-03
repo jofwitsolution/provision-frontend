@@ -30,3 +30,36 @@ export const reasonsToChooseProVision = [
       "We actively promote community integration by expanding residents' social networks and fostering a sense of belonging, enabling them to engage more fully in their local communities.",
   },
 ];
+
+export const coreValues = [
+  {
+    title: "Needs to Guest-Centric",
+    content:
+      "Prioritising the comfort and satisfaction of our guests, going above and beyond to meet their needs and create unforgettable memories.",
+  },
+  {
+    title: "Transparent Partnership",
+    content:
+      "Believing in transparent and mutually beneficial partnerships with property owners, ensuring they also benefit from our services. after all no landlord no service for us.",
+  },
+  {
+    title: "Continuous Improvement",
+    content:
+      "Dedication to continuous learning and improvement, both in terms of property management and customer service.",
+  },
+  {
+    title: "Personalisation",
+    content:
+      "Recognize that every guest is different, and strive to offer personalized experiences and tailored recommendations.",
+  },
+  {
+    title: "Sustainability",
+    content:
+      "Committed to environmental responsibility, implementing practices that minimize our impact and encourage responsible travel.",
+  },
+  {
+    title: "Integrity",
+    content:
+      "Operate with the utmost integrity, ensuring honesty, fairness, and ethical conduct in all our dealings.",
+  },
+];

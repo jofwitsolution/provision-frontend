@@ -5,6 +5,7 @@ import WhyChooseUs from "../../components/ui/WhyChooseUs";
 import Footer from "../../components/Footer";
 import AboutHeroSect from "./AboutHeroSect";
 import AboutWhoWeAre from "./AboutWhoWeAre";
+import CoreValues from "../../components/ui/CoreValues";
 
 const About = () => {
   return (
@@ -13,6 +14,7 @@ const About = () => {
       <Sidebar />
       <AboutHeroSect />
       <AboutWhoWeAre />
+      <CoreValues />
       <WhyChooseUs />
       <Footer />
     </>
