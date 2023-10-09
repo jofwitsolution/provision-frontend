@@ -1,24 +1,13 @@
-import http from "./httpService";
-import { getJwt } from "./authService";
+import apiClient from "./apiClient";
 
-const apiEndpoint = "/messages";
+const apiEndpoint = "/emails";
 
 const config = {
   headers: {
     "Content-Type": "application/json",
-    Authorization: `Bearer ${getJwt()}`,
   },
 };
 
-export function sendContactMessage(body) {
-  return http.post(
-    `${apiEndpoint}/send-contact-message`,
-    {
-      fullName: body.fullName,
-      email: body.email,
-      phone: body.phone,
-      message: body.message,
-    },
-    config
-  );
+export function sendReferralData(body) {
+  return apiClient.post(`${apiEndpoint}/refer-someone`, body, config);
 }

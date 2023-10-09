@@ -1,13 +1,14 @@
 import React from "react";
 import styles from "../../styles/tailwind";
+import Map from "../../components/Map";
 
 const ContactSectOne = () => {
   return (
     <section
       className={`bg-grey-50 ${styles.paddingTop} ${styles.paddingBottom}`}
     >
-      <div className={"ml-[6%]"}>
-        <div className="w-full flex gap-[2rem]">
+      <div className={styles.maxWidth}>
+        <div className="w-full lg:flex gap-[2rem] justify-between">
           <div className="flex flex-col md:flex-row gap-[2rem]">
             <div className="">
               <h2 className="font-bold text-[1.5rem] mb-[1.4rem]">
@@ -38,7 +39,7 @@ const ContactSectOne = () => {
                 </span>
               </div>
             </div>
-            <div className="">
+            <div className="md:ml-[3rem]">
               <h2 className="font-bold text-[1.5rem] mb-[1.4rem]">
                 Address and Email
               </h2>
@@ -54,12 +55,21 @@ const ContactSectOne = () => {
                 <h6 className="font-bold text-[0.9rem]">Email</h6>
                 <a
                   href="mailto: info@provisionsupportservice.co.uk"
-                  className="block text-[1rem] text-grey-200 underline"
+                  className="block text-[0.8rem] sm:text-[1rem] text-grey-200 underline"
                 >
                   info@provisionsupportservice.co.uk
                 </a>
+                <a
+                  href="mailto: referrals@provisionsupportservice.co.uk"
+                  className="block text-[0.8rem] sm:text-[1rem] text-grey-200 underline"
+                >
+                  referrals@provisionsupportservice.co.uk
+                </a>
               </div>
             </div>
+          </div>
+          <div className="md:w-[50%] mt-[4rem] lg:mt-[0rem]">
+            <Map />
           </div>
         </div>
       </div>

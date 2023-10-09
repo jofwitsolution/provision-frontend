@@ -6,6 +6,7 @@ import Footer from "../../components/Footer";
 import AboutHeroSect from "./AboutHeroSect";
 import AboutWhoWeAre from "./AboutWhoWeAre";
 import CoreValues from "../../components/ui/CoreValues";
+import Meta from "../../components/Meta";
 
 const About = () => {
   useEffect(() => {
@@ -14,6 +15,7 @@ const About = () => {
 
   return (
     <>
+      <Meta title={"About Us | ProVision Property"} />
       <Navbar />
       <Sidebar />
       <AboutHeroSect />

@@ -176,6 +176,7 @@ const Sidebar = () => {
         <div className="my-4 bg-grey-200 h-[1px]"></div>
 
         <Link
+          onClick={toggleSidebar}
           to="/contact"
           className="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 hover:bg-primary text-white"
         >

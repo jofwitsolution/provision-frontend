@@ -1,6 +1,6 @@
 import jwtDecode from "jwt-decode";
 import Cookies from "js-cookie";
-import http from "./httpService";
+import http from "./apiClient";
 
 const apiEndPoint = "/auth/login";
 const tokenKey = "session-token";
