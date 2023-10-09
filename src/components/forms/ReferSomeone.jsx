@@ -436,7 +436,7 @@ const ReferSomeone = () => {
             Email Address *
           </label>
           <input
-            type="tel"
+            type="email"
             id="referralEmail"
             className="mt-1 p-3 pl-4 focus:outline-primary rounded-md w-full bg-grey-50 border-none"
             placeholder="Email"
@@ -457,7 +457,7 @@ const ReferSomeone = () => {
             htmlFor="discoveryMode"
             className="block font-medium text-gray-700"
           >
-            How did you hear about the service? *
+            How did you hear about our service? *
           </label>
           <select
             id="discoveryMode"
@@ -483,7 +483,7 @@ const ReferSomeone = () => {
         <div className="mt-4 col-span-2 flex gap-[1.2rem]">
           <button
             type="submit"
-            // disabled={isSubmitting}
+            disabled={isSubmitting}
             className={classNames(
               "inline-flex h-max justify-center px-10 py-3 text-sm font-medium text-white  rounded focus:outline-none",
               {

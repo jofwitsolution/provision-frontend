@@ -9,6 +9,7 @@ inputOptions.discoveryModes = [
   { value: "Radio advert", label: "Radio advert" },
   { value: "Social media", label: "Social media" },
   { value: "Event", label: "Event" },
+  { value: "Other", label: "Other" },
 ];
 
 export default inputOptions;

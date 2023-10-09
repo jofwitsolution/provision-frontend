@@ -1,12 +1,17 @@
-import React from "react";
+import React, { useContext } from "react";
 import { useForm } from "react-hook-form";
 import classNames from "classnames";
 
 import { zodResolver } from "@hookform/resolvers/zod";
 import { GetInTouchSchema } from "../../constants/schema";
 import MutatingDotsLoader from "../loaders/MutatingDotsLoader";
+import { toast } from "react-toastify";
+import { GlobalContext } from "../../providers/ContextProvider";
+import { sendGetInTouchData } from "../../services/contactService";
 
 const GetInTouch = () => {
+  const { setSliderNotification } = useContext(GlobalContext);
+
   const {
     register,
     handleSubmit,
@@ -16,8 +21,19 @@ const GetInTouch = () => {
     resolver: zodResolver(GetInTouchSchema),
   });
 
-  const submitForm = (data) => {
-    console.log(data, isSubmitting);
+  const submitForm = async (data) => {
+    try {
+      await sendGetInTouchData(data);
+      reset();
+      setSliderNotification({
+        isActive: true,
+        text: "Your data was submitted successfully. We will respond as soon as possible. Thank you.",
+      });
+    } catch (error) {
+      if (error?.response?.data?.msg) {
+        toast.error(error.response.data.msg);
+      }
+    }
   };
 
   return (
