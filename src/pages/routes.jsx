@@ -4,6 +4,9 @@ import About from "./about/About";
 import NotFound from "../components/NotFound";
 import Contact from "./contact/Contact";
 import Referrals from "./referrals/Referrals";
+import Accommodation from "./accommodation/Accommodation";
+import Support from "./support/Support";
+import Community from "./communities/Community";
 
 const router = createBrowserRouter([
   {
@@ -13,6 +16,18 @@ const router = createBrowserRouter([
   {
     path: "/about",
     element: <About />,
+  },
+  {
+    path: "/accommodation",
+    element: <Accommodation />,
+  },
+  {
+    path: "/support",
+    element: <Support />,
+  },
+  {
+    path: "/communities",
+    element: <Community />,
   },
   {
     path: "/contact",

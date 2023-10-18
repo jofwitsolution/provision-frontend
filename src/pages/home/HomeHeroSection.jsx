@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import styles from "../../styles/tailwind";
 import { Link } from "react-router-dom";
 import { images } from "../../constants/images";
@@ -7,7 +8,12 @@ const HomeHeroSection = () => {
   return (
     <section className={`${styles.navbarGap}`}>
       <div className={`${styles.homeHero} items-center hidden lg:flex`}>
-        <div className="ml-[10%] p-[1.9rem] shadow rounded-sm w-[31.5rem] bg-white">
+        <motion.div
+          initial={{ visibility: "hidden" }}
+          whileInView={{ visibility: "visible", opacity: [0, 1], x: [-60, 0] }}
+          transition={{ duration: 2, type: "tween" }}
+          className="ml-[10%] p-[1.9rem] shadow rounded-sm w-[31.5rem] bg-white"
+        >
           <h1 className="text-[2.9rem] font-[700] text-primary">ProVision</h1>
           <p className="font-serif text-[1.1rem]">
             Our core ethos centers on the well-being of individuals. This is
@@ -19,7 +25,7 @@ const HomeHeroSection = () => {
               Discover more
             </Link>
           </div>
-        </div>
+        </motion.div>
       </div>
       <div className={`${styles.maxWidth} py-[1.9rem] lg:hidden`}>
         <h1 className="text-[2.5rem] font-[700] text-primary">ProVision</h1>

@@ -18,6 +18,11 @@ body {
   color: rgba(0, 0, 0, 0.8);
 }
 
+@media screen and (max-width: 400px) {
+  body {
+    font-size: 1.12rem;
+  }
+}
 @media screen and (max-width: 320px) {
   body {
     font-size: 1rem;
@@ -36,4 +41,31 @@ body {
   background: none !important;
   height: 300px;
   width: 100%;
+}
+
+.secondary-text-gradient {
+  /* background: -webkit-linear-gradient(#eee, #333); */
+  background: #714111; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #714111,
+    #714111
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #714111,
+    #714111
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.secondary-gradient {
+  background: #714111;
+  background: linear-gradient(-90deg, #714111 0%, rgba(59, 46, 87, 0.6) 100%);
+  background: -webkit-linear-gradient(
+    -90deg,
+    #714111 0%,
+    rgba(59, 46, 87, 0) 100%
+  );
 }

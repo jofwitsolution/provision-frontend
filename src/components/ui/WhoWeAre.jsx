@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import styles from "../../styles/tailwind";
 import { images } from "../../constants/images";
 
@@ -9,7 +10,17 @@ const WhoWeAre = () => {
         className={`${styles.maxWidth} ${styles.paddingTop} ${styles.paddingBottom}`}
       >
         <div className="flex flex-col lg:flex-row gap-[2rem] items-center justify-between">
-          <div className="md:w-[40rem] lg:w-[45%]">
+          <motion.div
+            initial={{ visibility: "hidden" }}
+            whileInView={{
+              visibility: "visible",
+              opacity: [0, 1],
+              y: [60, 0],
+            }}
+            transition={{ duration: 2, type: "tween" }}
+            viewport={{ once: true }}
+            className="md:w-[40rem] lg:w-[45%]"
+          >
             <div className="flex gap-[1rem] items-center">
               <hr className="inline-block border-2 border-grey-100 w-[6rem]" />
               <h3 className="font-[500]">WHO WE ARE</h3>
@@ -38,10 +49,18 @@ const WhoWeAre = () => {
                 you'll be staying.
               </p>
             </div>
-          </div>
+          </motion.div>
           <div className="lg:w-[40%]">
             <div className="relative">
-              <img
+              <motion.img
+                initial={{ visibility: "hidden" }}
+                whileInView={{
+                  visibility: "visible",
+                  opacity: [0, 1],
+                  y: [60, 0],
+                }}
+                transition={{ duration: 2, type: "tween" }}
+                viewport={{ once: true }}
                 src={images.people_6}
                 alt="provision 2"
                 className="rounded-full md:max-w-[25rem]"

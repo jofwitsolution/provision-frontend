@@ -33,14 +33,14 @@ export const reasonsToChooseProVision = [
 
 export const coreValues = [
   {
-    title: "Needs to Guest-Centric",
+    title: "Needs to Client-Centric",
     content:
-      "Prioritising the comfort and satisfaction of our guests, going above and beyond to meet their needs and create unforgettable memories.",
+      "Prioritising the comfort and satisfaction of our clients, going above and beyond to meet their needs and create unforgettable memories.",
   },
   {
     title: "Transparent Partnership",
     content:
-      "Believing in transparent and mutually beneficial partnerships with property owners, ensuring they also benefit from our services. after all no landlord no service for us.",
+      "Believing in transparent and mutually beneficial partnerships with property owners, ensuring they also benefit from our services. After all no client no service for us.",
   },
   {
     title: "Continuous Improvement",
@@ -50,7 +50,7 @@ export const coreValues = [
   {
     title: "Personalisation",
     content:
-      "Recognize that every guest is different, and strive to offer personalized experiences and tailored recommendations.",
+      "We offer trauma-informed care (TIC) with a deep awareness of the far-reaching effects of trauma. Our approach prioritizes the creation of both physical and emotional safety for our clients while assisting individuals in recognizing their unique strengths and effective coping strategies.",
   },
   {
     title: "Sustainability",
