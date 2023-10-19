@@ -84,6 +84,8 @@ export default {
         "home-hero": "url('/src/assets/images/home-hero.jpg')",
         "about-hero":
           "linear-gradient(to right, rgba(0, 0, 0, .8), rgba(0, 0, 0, .8), rgba(0, 0, 0, .6), rgba(0, 0, 0, .4)), url('/src/assets/images/house-2.jpg')",
+        "join-us":
+          "linear-gradient(to right, rgba(0, 0, 0, .3), rgba(0, 0, 0, .4), rgba(0, 0, 0, .6), rgba(0, 0, 0, .4)), url('/src/assets/images/brick-bg.jpg')",
         footer:
           "linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, .6), rgba(0, 0, 0, .4)), url('/src/assets/images/ge-2.jpg')",
       },

@@ -8,6 +8,7 @@ import AccommodHeroSect from "./AccommodHeroSect";
 import AccommodSectOne from "./AccommodSectOne";
 import AccommodSectTwo from "./AccommodSectTwo";
 import AccommodSectThree from "./AccommodSectThree";
+import JoinUs from "../../components/ui/JoinUs";
 
 const Accommodation = () => {
   useEffect(() => {
@@ -23,6 +24,7 @@ const Accommodation = () => {
       <AccommodSectOne />
       <AccommodSectTwo />
       <AccommodSectThree />
+      <JoinUs />
       <Footer />
     </>
   );
