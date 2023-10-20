@@ -5,6 +5,9 @@ import WhyChooseUs from "../../components/ui/WhyChooseUs";
 import Footer from "../../components/Footer";
 import Meta from "../../components/Meta";
 import CommunityHeroSect from "./CommunityHeroSect";
+import CommunitySectOne from "./CommunitySectOne";
+import JoinUs from "../../components/ui/JoinUs";
+import CommunitySectTwo from "./CommunitySectTwo";
 
 const Community = () => {
   useEffect(() => {
@@ -17,7 +20,9 @@ const Community = () => {
       <Navbar />
       <Sidebar />
       <CommunityHeroSect />
-      <WhyChooseUs />
+      <CommunitySectOne />
+      <CommunitySectTwo />
+      <JoinUs />
       <Footer />
     </>
   );

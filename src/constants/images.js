@@ -12,6 +12,11 @@ import people_5 from "../assets/images/people-5.jpg";
 import people_6 from "../assets/images/people-6.jpg";
 import people_7 from "../assets/images/people-7.webp";
 import people_8 from "../assets/images/people-8.webp";
+import community_1 from "../assets/images/community-1.webp";
+import community_2 from "../assets/images/community-2.webp";
+import community_3 from "../assets/images/community-3.webp";
+import community_4 from "../assets/images/community-4.webp";
+import community_5 from "../assets/images/community-5.webp";
 
 import provision_1 from "../assets/images/provision-1.jpg";
 import provision_2 from "../assets/images/provision-2.jpg";
@@ -31,6 +36,12 @@ export const images = {
   people_6,
   people_7,
   people_8,
+
+  community_1,
+  community_2,
+  community_3,
+  community_4,
+  community_5,
 
   provision_1,
   provision_2,

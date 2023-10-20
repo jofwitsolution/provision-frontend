@@ -1,10 +1,12 @@
 import React, { useEffect } from "react";
 import Navbar from "../../components/navigation/Navbar";
 import Sidebar from "../../components/navigation/Sidebar";
-import WhyChooseUs from "../../components/ui/WhyChooseUs";
 import Footer from "../../components/Footer";
 import Meta from "../../components/Meta";
 import SupportHeroSect from "./SupportHeroSect";
+import SupportSectOne from "./SupportSectOne";
+import SupportSectTwo from "./SupportSectTwo";
+import JoinUs from "../../components/ui/JoinUs";
 
 const Support = () => {
   useEffect(() => {
@@ -17,7 +19,9 @@ const Support = () => {
       <Navbar />
       <Sidebar />
       <SupportHeroSect />
-      <WhyChooseUs />
+      <SupportSectOne />
+      <SupportSectTwo />
+      <JoinUs />
       <Footer />
     </>
   );
