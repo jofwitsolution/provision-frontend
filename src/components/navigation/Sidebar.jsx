@@ -98,7 +98,7 @@ const Sidebar = () => {
       <div
         className={`sidebar ${
           isSidebarOpen ? "" : "hidden"
-        } fixed z-[500] text-white top-0 bottom-0 left-0 p-2 w-[300px] lg:hidden overflow-y-auto text-center bg-black-300`}
+        } fixed z-[500] text-white top-0 bottom-0 h-[100vh] left-0 p-2 w-[300px] lg:hidden overflow-y-auto text-center bg-black-300`}
       >
         <div className="text-gray-100 text-xl">
           <div className="p-2.5 mt-1 flex items-center">

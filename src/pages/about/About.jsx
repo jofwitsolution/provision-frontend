@@ -15,7 +15,13 @@ const About = () => {
 
   return (
     <>
-      <Meta title={"About Us | ProVision Property"} />
+      <Meta
+        title={"About Us | ProVision Property"}
+        description={"About Provision Property Management and Support Services"}
+        keywords={
+          "provision property management about page, provision property management and support service about page, provision support service about page"
+        }
+      />
       <Navbar />
       <Sidebar />
       <AboutHeroSect />

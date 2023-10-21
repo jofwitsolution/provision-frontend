@@ -34,11 +34,11 @@ const Footer = () => {
             </li>
             <li className="mb-2">
               <a href="/contact" className="hover:text-primary">
-                Support
+                Contact
               </a>
             </li>
             <li className="mb-2">
-              <a href="/faq" className="hover:text-primary">
+              <a href="/faqs" className="hover:text-primary">
                 FAQ
               </a>
             </li>

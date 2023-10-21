@@ -17,7 +17,13 @@ const Accommodation = () => {
 
   return (
     <>
-      <Meta title={"Accommodation | ProVision Property"} />
+      <Meta
+        title={"Accommodation | ProVision Property"}
+        description={"Provision Property Management and Support Services"}
+        keywords={
+          "accommodation, provision property management about page, provision property management and support service about page, provision support service about page"
+        }
+      />
       <Navbar />
       <Sidebar />
       <AccommodHeroSect />

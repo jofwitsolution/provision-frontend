@@ -9,7 +9,15 @@ import ReferralsSectOne from "./ReferralsSectOne";
 const Referrals = () => {
   return (
     <>
-      <Meta title={"Referrals | ProVision Property"} />
+      <Meta
+        title={"Referrals | ProVision Property"}
+        description={
+          "Referrals page of Provision Property Management and Support Services"
+        }
+        keywords={
+          "referrals, provision property management referrals page, provision property management and support service referrals page, provision support service referrals page"
+        }
+      />
       <Navbar />
       <Sidebar />
       <ReferralsHeroSect />

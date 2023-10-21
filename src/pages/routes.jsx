@@ -1,12 +1,14 @@
 import { createBrowserRouter } from "react-router-dom";
 import Home from "./home/Home";
 import About from "./about/About";
-import NotFound from "../components/NotFound";
 import Contact from "./contact/Contact";
 import Referrals from "./referrals/Referrals";
 import Accommodation from "./accommodation/Accommodation";
 import Support from "./support/Support";
 import Community from "./communities/Community";
+import TermsConditions from "./terms-conditions/TermsConditions";
+import PrivacyPolicy from "./privacy-policy/PrivacyPolicy";
+import FaqsPage from "./faqs/FaqsPage";
 
 const router = createBrowserRouter([
   {
@@ -36,6 +38,18 @@ const router = createBrowserRouter([
   {
     path: "/referrals",
     element: <Referrals />,
+  },
+  {
+    path: "/terms-and-conditions",
+    element: <TermsConditions />,
+  },
+  {
+    path: "/privacy-policy",
+    element: <PrivacyPolicy />,
+  },
+  {
+    path: "/faqs",
+    element: <FaqsPage />,
   },
   {
     path: "*",
