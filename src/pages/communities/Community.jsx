@@ -16,7 +16,7 @@ const Community = () => {
 
   return (
     <>
-      <Meta title={"Community | ProVision Property"} />
+      <Meta title={"Community | Provision Support Services CIC"} />
       <Navbar />
       <Sidebar />
       <CommunityHeroSect />

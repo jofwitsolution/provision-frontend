@@ -15,12 +15,10 @@ const Contact = () => {
   return (
     <>
       <Meta
-        title={"Contact Us | ProVision Property"}
-        description={
-          "Contact Provision Property Management and Support Services"
-        }
+        title={"Contact Us | Provision Support Services CIC"}
+        description={"Contact Provision Support Services CICs"}
         keywords={
-          "contact, provision property management contact page, provision property management and support service contact page, provision support service contact page"
+          "contact, Provision Support Services CIC contact page, Provision Support Services CIC contact page, provision support service contact page"
         }
       />
       <Navbar />

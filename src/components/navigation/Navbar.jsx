@@ -23,7 +23,7 @@ const Navbar = () => {
             <img
               src={images.primary_logo}
               alt="guard enforcement"
-              className="w-[160px] md:w-[250px]"
+              className="w-[90px] md:w-[120px]"
             />
           </a>{" "}
         </div>

@@ -27,19 +27,16 @@ const WhoWeAre = () => {
             </div>
             <div>
               <h3 className="font-[700] text-[2rem] leading-[2rem]">
-                ProVision Property
-              </h3>
-              <h3 className="font-[700] text-[1.5rem] leading-[2rem]">
-                Management and Support Service
+                Provision Support Services
               </h3>
             </div>
             <div className="mt-[2rem]">
               <p className="text-grey-200">
-                At Provision Property Management and Support Service, we are
-                more than just a service provider; we are champions of inclusive
-                and supported living experiences. Our mission is to empower
-                individuals by connecting them with distinctive accommodations
-                tailored to their unique needs and preferences.
+                At Provision Support Services CIC, we are more than just a
+                service provider; we are champions of inclusive and supported
+                living experiences. Our mission is to empower individuals by
+                connecting them with distinctive accommodations tailored to
+                their unique needs and preferences.
               </p>
               <p className="text-grey-200 mt-[1rem]">
                 With unwavering dedication, we unlock the full potential of

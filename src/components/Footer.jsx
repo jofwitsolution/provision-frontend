@@ -96,7 +96,7 @@ const Footer = () => {
         </div>
         <div className="mb-4 sm:mb-0">
           <h4 className={`text-[1.3rem] font-[700] mb-2 sm:mb-4`}>
-            <span className="text-primary">ProVision</span> Property
+            <span className="text-primary">ProVision</span> Support
           </h4>
           <ul className="text-[0.8rem] md:text-[1rem]">
             <li className="mb-2">
@@ -127,7 +127,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="xxs:w-[88%] md:w-[80%] xl:max-w-[1100px] mx-auto flex flex-col-reverse sm:flex-row justify-between items-start pb-6 gap-4">
-        <div>Copyright © 2023</div>
+        <div>Copyright © 2024</div>
         <div className="flex gap-5">
           <a
             href="https://www.facebook.com"

@@ -46,7 +46,7 @@ const ContactSectOne = () => {
               <div className="mb-[1.8rem]">
                 <h6 className="font-bold text-[0.9rem]">Address</h6>
                 <address className="text-[1rem] text-grey-200">
-                  <span className="block">31 Hazelville Road</span>
+                  <span className="block">32 Hazelville Road</span>
                   <span className="block">B28 9QF</span>
                   <span className="block">Birmingham</span>
                 </address>

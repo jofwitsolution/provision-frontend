@@ -28,13 +28,13 @@ const AccommodSectThree = () => {
           </h3>
           <p className="text-[0.95rem]">
             Upon successful completion of the Support Plan and reaching the
-            nine-month milestone, Provision Property Management and Support
-            Service will extend our support to secure independent accommodation.
-            This may encompass private rental arrangements or properties
-            administered by the local council. We are committed to your
-            successful transition, ensuring that you continue to enjoy stable
-            and independent living. We understand that everyone's path is
-            unique, and we're here to guide you every step of the way.
+            nine-month milestone, Provision Support Services CIC will extend our
+            support to secure independent accommodation. This may encompass
+            private rental arrangements or properties administered by the local
+            council. We are committed to your successful transition, ensuring
+            that you continue to enjoy stable and independent living. We
+            understand that everyone's path is unique, and we're here to guide
+            you every step of the way.
           </p>
         </div>
         <div className="lg:w-[30rem] px-[2rem] py-[2rem] rounded-xl bg-secondary hover:bg-primaryAlt text-white">

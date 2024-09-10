@@ -36,8 +36,8 @@ const ReferralsSectOne = () => {
           <p className="mb-[1rem]">
             Please make sure you complete any questions marked with an asterisk
             (*) as we need these details to complete the next steps of your
-            referral. You must have consent from your patient or client to give
-            their details.
+            referral. You must have consent from your client to give their
+            details.
           </p>
         </div>
         <ReferSomeone />

@@ -20,9 +20,9 @@ const AboutSection = () => {
           About Us
         </motion.h2>
         <motion.p className="text-lg mb-8" variants={fadeInUp}>
-          At Provision Property Management and Support Service, our mission is
-          to provide inclusive and supported living experiences tailored to the
-          unique needs and preferences of our clients.
+          At Provision Support Services CIC, our mission is to provide inclusive
+          and supported living experiences tailored to the unique needs and
+          preferences of our clients.
         </motion.p>
         <motion.p className="text-lg mb-8" variants={fadeInUp}>
           We are committed to fostering a holistic sense of well-being, enabling

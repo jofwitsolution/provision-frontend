@@ -14,10 +14,10 @@ const TermsConditions = () => {
   return (
     <>
       <Meta
-        title={"Terms & Conditions | ProVision Property"}
-        description={"provision property management terms and conditions"}
+        title={"Terms & Conditions | Provision Support Services CIC"}
+        description={"Provision Support Services CIC terms and conditions"}
         keywords={
-          "provision property management terms and conditions, provision property management and support service terms and conditions, provision support service terms and conditions"
+          "Provision Support Services CIC terms and conditions, Provision Support Services CIC terms and conditions, provision support service terms and conditions"
         }
       />
       <Navbar />
