@@ -1,4 +1,4 @@
-# The official Webiste of Guard Enforcement Powered by React + Vite
+# The official Webiste of Provision Support Services CIC Powered by React + Vite
 
 Currently, two official plugins are available:
 
