@@ -1,8 +1,7 @@
 import axios from "axios";
 import { toast } from "react-toastify";
 
-axios.defaults.baseURL = "https://provision-backend.vercel.app/api";
-// axios.defaults.baseURL = "/api";
+axios.defaults.baseURL = import.meta.env.VITE_APP_API_URL;
 
 axios.interceptors.response.use(null, (error) => {
   const expectedError =
