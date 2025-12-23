@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import styles from "../../styles/tailwind";
 import { images } from "../../constants/images";
+import { Link } from "react-router-dom";
 
 const WhoWeAre = () => {
   return (
@@ -45,6 +46,11 @@ const WhoWeAre = () => {
                 stay, no matter who you are, what your needs are, or how long
                 you'll be staying.
               </p>
+            </div>
+            <div className="mt-4 text-white">
+              <Link to="/about" className={`${styles.buttonOne}`}>
+                Discover more
+              </Link>
             </div>
           </motion.div>
           <div className="lg:w-[40%]">

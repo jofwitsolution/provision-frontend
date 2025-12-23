@@ -21,6 +21,10 @@ import community_5 from "../assets/images/community-5.webp";
 import provision_1 from "../assets/images/provision-1.jpg";
 import provision_2 from "../assets/images/provision-2.jpg";
 
+import referral_1 from "../assets/images/referral-1.png";
+import support_worker_1 from "../assets/images/support-worker-1.png";
+import coventry from "../assets/images/coventry.png";
+
 export const images = {
   primary_logo,
   home_hero,
@@ -45,4 +49,8 @@ export const images = {
 
   provision_1,
   provision_2,
+
+  referral_1,
+  support_worker_1,
+  coventry,
 };
