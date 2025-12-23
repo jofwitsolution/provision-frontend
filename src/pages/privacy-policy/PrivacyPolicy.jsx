@@ -14,10 +14,10 @@ const PrivacyPolicy = () => {
   return (
     <>
       <Meta
-        title={"Privacy Policy | Provision Support Services CIC"}
-        description={"Provision Support Services CIC privacy policy"}
+        title={"Privacy Policy | ProVision Support Services CIC"}
+        description={"ProVision Support Services CIC privacy policy"}
         keywords={
-          "Provision Support Services CIC privacy policy, Provision Support Services CIC privacy policy, provision support service privacy policy"
+          "ProVision Support Services CIC privacy policy, ProVision Support Services CIC privacy policy, provision support service privacy policy"
         }
       />
       <Navbar />

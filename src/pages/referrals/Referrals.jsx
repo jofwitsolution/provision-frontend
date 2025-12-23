@@ -10,10 +10,10 @@ const Referrals = () => {
   return (
     <>
       <Meta
-        title={"Referrals | Provision Support Services CIC"}
-        description={"Referrals page of Provision Support Services CICs"}
+        title={"Referrals | ProVision Support Services CIC"}
+        description={"Referrals page of ProVision Support Services CICs"}
         keywords={
-          "referrals, Provision Support Services CIC referrals page, Provision Support Services CIC referrals page, provision support service referrals page"
+          "referrals, ProVision Support Services CIC referrals page, ProVision Support Services CIC referrals page, provision support service referrals page"
         }
       />
       <Navbar />

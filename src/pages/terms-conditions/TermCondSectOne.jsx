@@ -14,7 +14,7 @@ const TermCondSectOne = () => {
           <div className="bg-white p-3 sm:p-6 rounded-lg shadow">
             <p className="mb-4">
               This page outlines the terms and conditions that govern the
-              Licensee's occupancy at Provision Support Services. By agreeing to
+              Licensee's occupancy at ProVision Support Services. By agreeing to
               these terms, you acknowledge and agree to adhere to the following
               provisions:
             </p>
@@ -37,16 +37,16 @@ const TermCondSectOne = () => {
             <h2 className="text-xl font-semibold mb-2">3. Support</h2>
             <div className="mb-4">
               <p>
-                The Licensee acknowledges Provision Support Service's commitment
+                The Licensee acknowledges ProVision Support Service's commitment
                 to providing Supported Housing.
               </p>
               <p>
-                The Licensee agrees to cooperate with Provision Support Service
+                The Licensee agrees to cooperate with ProVision Support Service
                 and its agents by accepting offered support and complying with
                 reasonable requirements.
               </p>
               <p>
-                In cases where Provision Support Service determines that support
+                In cases where ProVision Support Service determines that support
                 is no longer needed, the Licensee agrees to actively seek
                 alternative accommodation.
               </p>
@@ -54,7 +54,7 @@ const TermCondSectOne = () => {
 
             <h2 className="text-xl font-semibold mb-2">4. Change of Rooms</h2>
             <p className="mb-4">
-              The Licensee shall use the room nominated by Provision Support
+              The Licensee shall use the room nominated by ProVision Support
               Service and be prepared to change rooms when required.
             </p>
 
@@ -95,7 +95,7 @@ const TermCondSectOne = () => {
             <h2 className="text-xl font-semibold mb-2">10. Health Safety</h2>
             <p className="mb-4">
               The Licensee shall comply with health, safety, and fire
-              instructions provided by Provision Support Service.
+              instructions provided by ProVision Support Service.
             </p>
 
             <h2 className="text-xl font-semibold mb-2">11. Security</h2>
@@ -134,7 +134,7 @@ const TermCondSectOne = () => {
             </h2>
             <p className="mb-4">
               The Licensee shall not make alterations to the building, fixtures,
-              fittings, or furniture provided by Provision Support Service.
+              fittings, or furniture provided by ProVision Support Service.
               Personal furniture is not allowed, and small items require written
               consent.
             </p>
@@ -144,19 +144,19 @@ const TermCondSectOne = () => {
             </h2>
             <p className="mb-4">
               The Licensee shall report any disrepair or defect for which
-              Provision Support Service is responsible.
+              ProVision Support Service is responsible.
             </p>
 
             <h2 className="text-xl font-semibold mb-2">17. Car Parking</h2>
             <p className="mb-4">
               The Licensee shall not park any vehicle without a valid tax disc,
               MOT certificate, and at least 3rd party insurance. Parking on
-              Provision Support Service's adjacent land is prohibited.
+              ProVision Support Service's adjacent land is prohibited.
             </p>
 
             <h2 className="text-xl font-semibold mb-2">18. Access</h2>
             <p className="mb-4">
-              Provision Support Service retains spare keys and may access the
+              ProVision Support Service retains spare keys and may access the
               room for inspections, repairs, or maintenance with reasonable
               notice.
             </p>
@@ -164,7 +164,7 @@ const TermCondSectOne = () => {
             <h2 className="text-xl font-semibold mb-2">19. Lodgers</h2>
             <p className="mb-4">
               The Licensee shall not take in lodgers or allow anyone else to
-              live in the accommodation without Provision Support Service's
+              live in the accommodation without ProVision Support Service's
               permission.
             </p>
 
@@ -172,7 +172,7 @@ const TermCondSectOne = () => {
               20. Absence from Premises
             </h2>
             <p className="mb-4">
-              The Licensee shall inform Provision Support Service if absent for
+              The Licensee shall inform ProVision Support Service if absent for
               seven days or more.
             </p>
 
@@ -185,7 +185,7 @@ const TermCondSectOne = () => {
               22. Ending your license
             </h2>
             <p className="mb-4">
-              The Licensee shall give Provision Support Service at least four
+              The Licensee shall give ProVision Support Service at least four
               weeks' notice in writing to end the license.
             </p>
 
@@ -193,17 +193,17 @@ const TermCondSectOne = () => {
             <p className="mb-4">
               The Licensee shall remove personal possessions and leave the
               accommodation and fixtures in good condition. The Licensee shall
-              return the keys to the accommodation to the Provision Support
+              return the keys to the accommodation to the ProVision Support
               Service office by 12 noon on the day the license expires.
-              Provision Support Service is not responsible for items left
+              ProVision Support Service is not responsible for items left
               behind, and charges may apply for disposal.
             </p>
 
             <h2 className="text-xl font-semibold mb-2">
-              24. Termination by Provision Support Service
+              24. Termination by ProVision Support Service
             </h2>
             <p className="mb-4">
-              Provision Support Service may terminate the license immediately in
+              ProVision Support Service may terminate the license immediately in
               certain circumstances and recover possession without a court
               order. Valid notices to the Licensee are considered delivered when
               left at the room.

@@ -14,10 +14,10 @@ const FaqsPage = () => {
   return (
     <>
       <Meta
-        title={"FAQs | Provision Support Services CIC"}
-        description={"Provision Support Services CIC FAQs"}
+        title={"FAQs | ProVision Support Services CIC"}
+        description={"ProVision Support Services CIC FAQs"}
         keywords={
-          "Provision Support Services CIC FAQs, Provision Support Services CIC FAQs, provision support service FAQs"
+          "ProVision Support Services CIC FAQs, ProVision Support Services CIC FAQs, provision support service FAQs"
         }
       />
       <Navbar />

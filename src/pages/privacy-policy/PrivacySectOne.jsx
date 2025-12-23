@@ -13,7 +13,7 @@ const PrivacySectOne = () => {
           </h1>
           <div className="bg-white p-3 sm:p-6 rounded-lg shadow">
             <p className="mb-4">
-              At Provision Support Service, we are committed to ensuring the
+              At ProVision Support Service, we are committed to ensuring the
               privacy and security of your personal data. We are dedicated to
               complying with the General Data Protection Regulation (GDPR) and
               informing you about the ways we collect, use, and protect your
@@ -43,7 +43,7 @@ const PrivacySectOne = () => {
                   By signing our consent form, you provide your consent for us
                   to process your data, including personal and special category
                   data. Your support details will be securely stored in a shared
-                  electronic case management system accessed by Provision
+                  electronic case management system accessed by ProVision
                   Support Service members. Paper copies of your data may also be
                   stored securely.
                 </li>
@@ -85,9 +85,9 @@ const PrivacySectOne = () => {
             <h2 className="text-xl font-semibold mb-2">4. Data Storage</h2>
             <p className="mb-4">
               Your support details will be stored in a shared electronic case
-              management system accessed by Provision Support Service members
+              management system accessed by ProVision Support Service members
               and their contractual partners. Your information may also be
-              securely stored in paper files held by Provision Support Service
+              securely stored in paper files held by ProVision Support Service
               or its contractual partners.
             </p>
 
@@ -103,7 +103,7 @@ const PrivacySectOne = () => {
                   service you receive.
                 </li>
                 <li>
-                  Provision Support Service, for GDPR purposes, acts as the Data
+                  ProVision Support Service, for GDPR purposes, acts as the Data
                   Processor on behalf of the Commissioner of the service.
                 </li>
               </ul>
@@ -123,7 +123,7 @@ const PrivacySectOne = () => {
             <p className="mb-4">
               We will not share your information with any third party without
               your explicit consent, except where required by law. Both
-              Provision Support Service and our contractual partners have
+              ProVision Support Service and our contractual partners have
               individual complaints policies, and you may request further
               details.
             </p>

@@ -17,12 +17,12 @@ const AboutWhoWeAre = () => {
             </div>
             <div>
               <h3 className="font-[700] text-[2rem] leading-[2rem]">
-                Provision Support Services
+                ProVision Support Services
               </h3>
             </div>
             <div className="mt-[2rem]">
               <p className="text-grey-200">
-                At Provision Support Services CIC, we are more than just a
+                At ProVision Support Services CIC, we are more than just a
                 service provider; we are champions of inclusive and supported
                 living experiences. Our mission is to empower individuals by
                 connecting them with distinctive accommodations tailored to

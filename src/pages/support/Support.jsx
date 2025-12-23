@@ -15,7 +15,7 @@ const Support = () => {
 
   return (
     <>
-      <Meta title={"Support | Provision Support Services CIC"} />
+      <Meta title={"Support | ProVision Support Services CIC"} />
       <Navbar />
       <Sidebar />
       <SupportHeroSect />

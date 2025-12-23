@@ -57,7 +57,7 @@ const SupportSectTwo = () => {
             Opportunities for Growth
           </h3>
           <p className="text-[0.95rem]">
-            Provision Support is more than just a service; it's an opportunity
+            ProVision Support is more than just a service; it's an opportunity
             for growth. We enable access to opportunities in employment,
             education/training, or voluntary service, helping you build a
             brighter future.

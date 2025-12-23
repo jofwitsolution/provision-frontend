@@ -25,7 +25,7 @@ const ReferralsSectOne = () => {
           <p className="mb-[1rem]">
             This form is safe and secure. The information you provide is
             confidential and protected by encryption. We will only share
-            information with professionals outside of Provision Support Services
+            information with professionals outside of ProVision Support Services
             if we think someone is at risk of harm.
           </p>
           <p className="mb-[1rem]">

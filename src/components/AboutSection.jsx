@@ -20,7 +20,7 @@ const AboutSection = () => {
           About Us
         </motion.h2>
         <motion.p className="text-lg mb-8" variants={fadeInUp}>
-          At Provision Support Services CIC, our mission is to provide inclusive
+          At ProVision Support Services CIC, our mission is to provide inclusive
           and supported living experiences tailored to the unique needs and
           preferences of our clients.
         </motion.p>

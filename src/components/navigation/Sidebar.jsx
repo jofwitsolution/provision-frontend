@@ -104,7 +104,7 @@ const Sidebar = () => {
           <div className="p-2.5 mt-1 flex items-center">
             <img
               src={images.primary_logo}
-              alt="Provision Support Services CIC"
+              alt="ProVision Support Services CIC"
               className="w-[100px] md:w-[130px]"
             />
             <span

@@ -12,14 +12,14 @@ const Meta = ({ title, description, keywords }) => {
 };
 
 Meta.defaultProps = {
-  title: "Provision Support Services CIC",
+  title: "ProVision Support Services CIC",
   description: `
   Celebrate Your Stay, Elevate Your Experience, and Empower Your Investment 
   with ProVision. Discover Distinctive Accommodations Tailored to You, 
   Where Sustainability Meets Unforgettable Memories. Your Journey Starts Here.
   `,
   keywords:
-    "provision, Provision Support Services CIC, property, support service, Provision Support Services CIC",
+    "provision, ProVision Support Services CIC, property, support service, ProVision Support Services CIC",
 };
 
 export default Meta;

@@ -21,6 +21,7 @@ const Home = () => {
       <HomeFindSect />
       <HomeSupportSect />
       <HomeManageSect />
+      <HomeReferSect />
       <WhyChooseUs />
       <Footer />
     </>

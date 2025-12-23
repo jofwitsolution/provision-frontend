@@ -18,10 +18,10 @@ const Accommodation = () => {
   return (
     <>
       <Meta
-        title={"Accommodation | Provision Support Services CIC"}
-        description={"Provision Support Services CICs"}
+        title={"Accommodation | ProVision Support Services CIC"}
+        description={"ProVision Support Services CICs"}
         keywords={
-          "accommodation, Provision Support Services CIC about page, Provision Support Services CIC about page, provision support service about page"
+          "accommodation, ProVision Support Services CIC about page, ProVision Support Services CIC about page, provision support service about page"
         }
       />
       <Navbar />

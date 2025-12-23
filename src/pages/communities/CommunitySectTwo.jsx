@@ -28,7 +28,7 @@ const CommunitySectTwo = () => {
             <p className="text-gray-700 text-base">
               Our commitment to sustainability is unwavering. We are dedicated
               to environmental responsibility, implementing practices that
-              minimize our impact and encourage responsible travel. Provision
+              minimize our impact and encourage responsible travel. ProVision
               Communities are designed with eco-friendly practices in mind,
               ensuring that we do our part to protect the environment and the
               communities we serve.

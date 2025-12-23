@@ -28,7 +28,7 @@ const AccommodSectThree = () => {
           </h3>
           <p className="text-[0.95rem]">
             Upon successful completion of the Support Plan and reaching the
-            nine-month milestone, Provision Support Services CIC will extend our
+            nine-month milestone, ProVision Support Services CIC will extend our
             support to secure independent accommodation. This may encompass
             private rental arrangements or properties administered by the local
             council. We are committed to your successful transition, ensuring
@@ -54,7 +54,7 @@ const AccommodSectThree = () => {
             We're Here for You
           </h3>
           <p className="text-[0.95rem]">
-            At Provision Accommodation, we're not just a landlord; we're your
+            At ProVision Accommodation, we're not just a landlord; we're your
             partner on the journey to self-sufficient living. We're committed to
             providing more than just a roof over your head. We're here to create
             a supportive environment that empowers you to achieve your goals,
