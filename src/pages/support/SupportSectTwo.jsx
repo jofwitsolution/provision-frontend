@@ -20,11 +20,11 @@ const SupportSectTwo = () => {
         </div>
         <div className="lg:w-[20rem] px-[2rem] py-[2rem] rounded-xl bg-secondary hover:bg-primaryAlt text-white">
           <h3 className="text-[1.4rem] mb-[1rem] font-[600]">
-            Access to Specialized Service
+            Access to Specialised Service
           </h3>
           <p className="text-[0.95rem]">
             Navigating the support landscape can be challenging, which is why we
-            provide assistance in accessing specialized services related to
+            provide assistance in accessing specialised services related to
             substance abuse, mental health, and other critical areas. Your
             well-being is our priority, and we're here to ensure you receive the
             support you need.

@@ -32,7 +32,7 @@ export const faqs = [
   {
     question: "What types of support does ProVision Support Service offer?",
     answer:
-      "We offer support in budgeting, benefit applications, access to specialized services, tenancy maintenance, well-being, employment opportunities, education/training, and community integration.",
+      "We offer support in budgeting, benefit applications, access to specialised services, tenancy maintenance, well-being, employment opportunities, education/training, and community integration.",
   },
   {
     question:
@@ -60,7 +60,7 @@ export const faqs = [
     question:
       "Who is the target market for ProVision Supported Living Service?",
     answer:
-      "Our service caters to individuals needing structured and supportive living arrangements, including people with disabilities, mental health challenges, or those in need of specialized care.",
+      "Our service caters to individuals needing structured and supportive living arrangements, including people with disabilities, mental health challenges, or those in need of specialised care.",
   },
   {
     question:
@@ -77,7 +77,7 @@ export const faqs = [
     question:
       "What are the regulatory considerations for ProVision Support Service?",
     answer:
-      "We are committed to compliance with local and national regulations governing supported living arrangements, including licensing requirements, safety standards, and specialized care protocols.",
+      "We are committed to compliance with local and national regulations governing supported living arrangements, including licensing requirements, safety standards, and specialised care protocols.",
   },
   {
     question:

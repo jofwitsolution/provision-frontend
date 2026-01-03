@@ -10,9 +10,9 @@ export const reasonsToChooseProVision = [
       "We offer expert guidance in budgeting and financial management, helping residents address existing debts and develop crucial financial skills for a stable future.",
   },
   {
-    title: "Access to Specialized Services",
+    title: "Access to Specialised Services",
     content:
-      "Our residents benefit from facilitated access to a wide range of specialized services, including assistance with substance abuse, mental health, and other critical areas, ensuring their overall well-being.",
+      "Our residents benefit from facilitated access to a wide range of specialised services, including assistance with substance abuse, mental health, and other critical areas, ensuring their overall well-being.",
   },
   {
     title: "Pathway to Independence",

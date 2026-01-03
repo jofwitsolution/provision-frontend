@@ -18,7 +18,7 @@ const HomeSupportSect = () => {
               Support Service
             </h3>
             <p className="leading-[2rem]">
-              We specialize in helping individuals maintain their tenancy and
+              We specialise in helping individuals maintain their tenancy and
               prepare for self-sufficient living. Our mission is to provide
               inclusive and supported living experiences tailored to the unique
               needs and preferences of our clients.
