@@ -35,8 +35,8 @@ const HomeHeroSection = () => {
           supporting people in their journey toward greater independence.
         </p>
         <div className="mt-[1.9rem] text-white">
-          <Link to="/about" className={`${styles.buttonOne}`}>
-            Discover more
+          <Link to="/contact" className={`${styles.buttonOne}`}>
+            Get in touch
           </Link>
         </div>
       </div>
