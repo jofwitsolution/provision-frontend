@@ -9,6 +9,7 @@ import Community from "./communities/Community";
 import TermsConditions from "./terms-conditions/TermsConditions";
 import PrivacyPolicy from "./privacy-policy/PrivacyPolicy";
 import FaqsPage from "./faqs/FaqsPage";
+import EventsPage from "./events/EventsPage";
 
 const router = createBrowserRouter([
   {
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
   {
     path: "/referrals",
     element: <Referrals />,
+  },
+  {
+    path: "/events",
+    element: <EventsPage />,
   },
   {
     path: "/terms-and-conditions",

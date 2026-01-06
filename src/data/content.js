@@ -1,3 +1,5 @@
+import { eventImages } from "../constants/images";
+
 export const reasonsToChooseProVision = [
   {
     title: "Personalized Support Plans",
@@ -61,5 +63,77 @@ export const coreValues = [
     title: "Integrity",
     content:
       "Operate with the utmost integrity, ensuring honesty, fairness, and ethical conduct in all our dealings.",
+  },
+];
+
+export const recentEvents = [
+  {
+    id: 1,
+    title: "2025 Chrismas Celebration",
+    slug: "christmas-celebration-2025",
+    date: "2025-12-25",
+    excerpt:
+      "Festive celebration filled with joy, laughter, and community spirit as we come together to celebrate Christmas 2025.",
+    content:
+      "A festive event filled with joy, laughter, and community spirit. This special occasion brings together residents, staff, and community members to celebrate the holiday season with warmth and cheer. Enjoy delicious food, lively music, and engaging activities designed to create lasting memories. Let's come together to share the magic of Christmas and spread happiness throughout our ProVision family.",
+    otherImages: [
+      eventImages.xmas_2025_1,
+      eventImages.xmas_2025_2,
+      eventImages.xmas_2025_3,
+      eventImages.xmas_2025_4,
+      eventImages.xmas_2025_5,
+      eventImages.xmas_2025_6,
+      eventImages.xmas_2025_7,
+      eventImages.xmas_2025_8,
+      eventImages.xmas_2025_9,
+      eventImages.xmas_2025_10,
+    ],
+    videos: [],
+  },
+  {
+    id: 1,
+    title: "2025 Chrismas Celebration",
+    slug: "christmas-celebration-2025",
+    date: "2025-12-25",
+    excerpt:
+      "Festive celebration filled with joy, laughter, and community spirit as we come together to celebrate Christmas 2025.",
+    content:
+      "A festive event filled with joy, laughter, and community spirit. This special occasion brings together residents, staff, and community members to celebrate the holiday season with warmth and cheer. Enjoy delicious food, lively music, and engaging activities designed to create lasting memories. Let's come together to share the magic of Christmas and spread happiness throughout our ProVision family.",
+    otherImages: [
+      eventImages.xmas_2025_1,
+      eventImages.xmas_2025_2,
+      eventImages.xmas_2025_3,
+      eventImages.xmas_2025_4,
+      eventImages.xmas_2025_5,
+      eventImages.xmas_2025_6,
+      eventImages.xmas_2025_7,
+      eventImages.xmas_2025_8,
+      eventImages.xmas_2025_9,
+      eventImages.xmas_2025_10,
+    ],
+    videos: [],
+  },
+  {
+    id: 1,
+    title: "2025 Chrismas Celebration",
+    slug: "christmas-celebration-2025",
+    date: "2025-12-25",
+    excerpt:
+      "Festive celebration filled with joy, laughter, and community spirit as we come together to celebrate Christmas 2025.",
+    content:
+      "A festive event filled with joy, laughter, and community spirit. This special occasion brings together residents, staff, and community members to celebrate the holiday season with warmth and cheer. Enjoy delicious food, lively music, and engaging activities designed to create lasting memories. Let's come together to share the magic of Christmas and spread happiness throughout our ProVision family.",
+    otherImages: [
+      eventImages.xmas_2025_1,
+      eventImages.xmas_2025_2,
+      eventImages.xmas_2025_3,
+      eventImages.xmas_2025_4,
+      eventImages.xmas_2025_5,
+      eventImages.xmas_2025_6,
+      eventImages.xmas_2025_7,
+      eventImages.xmas_2025_8,
+      eventImages.xmas_2025_9,
+      eventImages.xmas_2025_10,
+    ],
+    videos: [],
   },
 ];
