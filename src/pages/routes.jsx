@@ -10,6 +10,7 @@ import TermsConditions from "./terms-conditions/TermsConditions";
 import PrivacyPolicy from "./privacy-policy/PrivacyPolicy";
 import FaqsPage from "./faqs/FaqsPage";
 import EventsPage from "./events/EventsPage";
+import EventDetailsPage from "./event-details/EventDetails";
 
 const router = createBrowserRouter([
   {
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
   {
     path: "/events",
     element: <EventsPage />,
+  },
+  {
+    path: "/events/:slug",
+    element: <EventDetailsPage />,
   },
   {
     path: "/terms-and-conditions",

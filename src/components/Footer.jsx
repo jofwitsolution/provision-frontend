@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 import { images } from "../constants/images";
 import styles from "../styles/tailwind";
-import { FaFacebookF, FaTwitter } from "react-icons/fa";
+import { FaFacebookF, FaLinkedin } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 
 const Footer = () => {
@@ -67,6 +67,11 @@ const Footer = () => {
             <li className="mb-2">
               <a href="/communities" className="hover:text-primary">
                 Communities
+              </a>
+            </li>
+            <li className="mb-2">
+              <a href="/events" className="hover:text-primary">
+                Latest Events
               </a>
             </li>
           </ul>
@@ -138,15 +143,15 @@ const Footer = () => {
             <FaFacebookF fontSize={18} />{" "}
           </a>
           <a
-            href="https://twitter.com"
+            href="https://www.linkedin.com/company/provision-support-services-cic"
             className="text-white hover:text-primary"
             target={"-blank"}
             rel="noreferrer"
           >
-            <FaTwitter fontSize={18} />{" "}
+            <FaLinkedin fontSize={18} />{" "}
           </a>
           <a
-            href="https://instagram.com"
+            href="https://instagram.com/provisioncic"
             className="text-white hover:text-primary"
             target={"-blank"}
             rel="noreferrer"

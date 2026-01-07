@@ -10,6 +10,7 @@ import Footer from "../../components/Footer";
 import WhoWeAre from "../../components/ui/WhoWeAre";
 import HomeReferSect from "./HomeReferSect";
 import WhereWeOperate from "./WhereWeOperate";
+import HomeRecentEvent from "./HomeRecentEvent";
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
       <WhereWeOperate />
       <HomeReferSect />
       <WhyChooseUs />
+      <HomeRecentEvent />
       <Footer />
     </>
   );

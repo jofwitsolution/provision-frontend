@@ -12,7 +12,7 @@ const EventHero = () => {
         >
           <div className="flex flex-col md:flex-row justify-between md:items-center w-full">
             <h1 className="text-[2.2rem] md:text-[2.9rem] font-[500]">
-              Recent Events
+              Latest Events
             </h1>
             <div className="flex gap-[0.4rem] items-center text-[0.8rem]">
               <Link to="/" className="font-bold">

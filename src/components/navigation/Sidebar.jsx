@@ -1,26 +1,15 @@
 import React, { useContext, useState } from "react";
-import {
-  AiFillCloseCircle,
-  AiOutlineTeam,
-  AiOutlineLogout,
-  AiOutlineLogin,
-  AiOutlineClose,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiOutlineClose, AiFillInstagram } from "react-icons/ai";
 import { Link, NavLink } from "react-router-dom";
 import { HiHome, HiOfficeBuilding } from "react-icons/hi";
 import { IoIosPeople } from "react-icons/io";
-import {
-  MdMiscellaneousServices,
-  MdOutlineChildCare,
-  MdOutlineContacts,
-} from "react-icons/md";
+import { MdEvent, MdOutlineChildCare, MdOutlineContacts } from "react-icons/md";
 import { VscReferences } from "react-icons/vsc";
 import { BsSearch, BsPeople, BsChevronDown } from "react-icons/bs";
 import auth from "../../services/authService";
 import { GlobalContext } from "../../providers/ContextProvider";
 import { images } from "../../constants/images";
-import { FaFacebookF, FaTwitter } from "react-icons/fa";
+import { FaFacebookF, FaLinkedin } from "react-icons/fa";
 
 const DropDown = ({ title, links, toggleSidebar }) => {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
@@ -172,6 +161,14 @@ const Sidebar = () => {
           <VscReferences className="" />
           <span className="text-[15px] ml-4 font-bold">Referrals</span>
         </Link>
+        <Link
+          onClick={toggleSidebar}
+          to="/events"
+          className="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-primary text-white"
+        >
+          <MdEvent className="" />
+          <span className="text-[15px] ml-4 font-bold">Latest Events</span>
+        </Link>
 
         <div className="my-4 bg-grey-200 h-[1px]"></div>
 
@@ -195,15 +192,15 @@ const Sidebar = () => {
             <FaFacebookF fontSize={18} />{" "}
           </a>
           <a
-            href="https://twitter.com"
+            href="https://www.linkedin.com/company/provision-support-services-cic"
             className="text-white hover:text-primary"
             target={"-blank"}
             rel="noreferrer"
           >
-            <FaTwitter fontSize={18} />{" "}
+            <FaLinkedin fontSize={18} />{" "}
           </a>
           <a
-            href="https://instagram.com"
+            href="https://instagram.com/provisioncic"
             className="text-white hover:text-primary"
             target={"-blank"}
             rel="noreferrer"

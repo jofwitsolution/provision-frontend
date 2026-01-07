@@ -73,55 +73,10 @@ export const recentEvents = [
     slug: "christmas-celebration-2025",
     date: "2025-12-25",
     excerpt:
-      "Festive celebration filled with joy, laughter, and community spirit as we come together to celebrate Christmas 2025.",
+      "A joyful and memorable Christmas 2025 celebration filled with laughter, togetherness, and community spirit, as residents, staff, and supporters came together to mark the festive season.",
     content:
-      "A festive event filled with joy, laughter, and community spirit. This special occasion brings together residents, staff, and community members to celebrate the holiday season with warmth and cheer. Enjoy delicious food, lively music, and engaging activities designed to create lasting memories. Let's come together to share the magic of Christmas and spread happiness throughout our ProVision family.",
-    otherImages: [
-      eventImages.xmas_2025_1,
-      eventImages.xmas_2025_2,
-      eventImages.xmas_2025_3,
-      eventImages.xmas_2025_4,
-      eventImages.xmas_2025_5,
-      eventImages.xmas_2025_6,
-      eventImages.xmas_2025_7,
-      eventImages.xmas_2025_8,
-      eventImages.xmas_2025_9,
-      eventImages.xmas_2025_10,
-    ],
-    videos: [],
-  },
-  {
-    id: 1,
-    title: "2025 Chrismas Celebration",
-    slug: "christmas-celebration-2025",
-    date: "2025-12-25",
-    excerpt:
-      "Festive celebration filled with joy, laughter, and community spirit as we come together to celebrate Christmas 2025.",
-    content:
-      "A festive event filled with joy, laughter, and community spirit. This special occasion brings together residents, staff, and community members to celebrate the holiday season with warmth and cheer. Enjoy delicious food, lively music, and engaging activities designed to create lasting memories. Let's come together to share the magic of Christmas and spread happiness throughout our ProVision family.",
-    otherImages: [
-      eventImages.xmas_2025_1,
-      eventImages.xmas_2025_2,
-      eventImages.xmas_2025_3,
-      eventImages.xmas_2025_4,
-      eventImages.xmas_2025_5,
-      eventImages.xmas_2025_6,
-      eventImages.xmas_2025_7,
-      eventImages.xmas_2025_8,
-      eventImages.xmas_2025_9,
-      eventImages.xmas_2025_10,
-    ],
-    videos: [],
-  },
-  {
-    id: 1,
-    title: "2025 Chrismas Celebration",
-    slug: "christmas-celebration-2025",
-    date: "2025-12-25",
-    excerpt:
-      "Festive celebration filled with joy, laughter, and community spirit as we come together to celebrate Christmas 2025.",
-    content:
-      "A festive event filled with joy, laughter, and community spirit. This special occasion brings together residents, staff, and community members to celebrate the holiday season with warmth and cheer. Enjoy delicious food, lively music, and engaging activities designed to create lasting memories. Let's come together to share the magic of Christmas and spread happiness throughout our ProVision family.",
+      "Our Christmas 2025 celebration was a heart-warming and joyful occasion, bringing together residents, staff, and members of the community to share in the true spirit of the season. The event was filled with laughter, warmth, and togetherness as everyone enjoyed delicious food, uplifting music, and a range of engaging festive activities. It was a wonderful opportunity to strengthen connections, celebrate community, and create lasting memories across the Provision Support Services CIC family.",
+    mediaNote: "Graphics and highlights from the event can be found below.",
     otherImages: [
       eventImages.xmas_2025_1,
       eventImages.xmas_2025_2,

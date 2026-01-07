@@ -116,6 +116,16 @@ const Navbar = () => {
               Referrals
             </NavLink>
           </div>
+          <div className="hidden xl:block">
+            <NavLink
+              to="/events"
+              className={({ isActive }) =>
+                isActive ? "text-primary" : "hover:text-primary"
+              }
+            >
+              Events
+            </NavLink>
+          </div>
           {/* <div className="relative group">
             <NavLink
               to="#"
