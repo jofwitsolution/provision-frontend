@@ -1,5 +1,5 @@
 import React from "react";
-import { recentEvents } from "../../data/content";
+import { recentNews } from "../../data/content";
 import styles from "../../styles/tailwind";
 import { Link } from "react-router-dom";
 
@@ -9,7 +9,7 @@ const EventList = () => {
       className={`${styles.maxWidth} ${styles.paddingTop} ${styles.paddingBottom}} bg-grey-10`}
     >
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 place-items-center">
-        {recentEvents.map((event) => (
+        {recentNews.map((event) => (
           <Link
             to={`/events/${event.slug}`}
             key={event.id}

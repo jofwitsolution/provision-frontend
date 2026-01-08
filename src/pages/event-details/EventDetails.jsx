@@ -7,12 +7,12 @@ import { Link, useParams } from "react-router-dom";
 import { AiOutlineRight } from "react-icons/ai";
 
 import styles from "../../styles/tailwind";
-import { recentEvents } from "../../data/content";
+import { recentNews } from "../../data/content";
 
 const EventDetailsPage = () => {
   const { slug } = useParams();
 
-  const event = recentEvents.find((evt) => evt.slug === slug);
+  const event = recentNews.find((evt) => evt.slug === slug);
   if (!event) {
     return (
       <>

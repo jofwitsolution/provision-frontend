@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../../styles/tailwind";
-import { recentEvents } from "../../data/content";
+import { recentNews } from "../../data/content";
 import { Link } from "react-router-dom";
 
 const HomeRecentEvent = () => {
@@ -11,7 +11,7 @@ const HomeRecentEvent = () => {
       >
         <div className="flex gap-[1rem] items-center">
           <hr className="inline-block border-2 border-grey-100 w-[6rem]" />
-          <h3 className="font-[500]">RECENT EVENTS</h3>
+          <h3 className="font-[500]">LATEST EVENTS</h3>
         </div>
         <div>
           <h3 className="font-[700] text-[2rem] leading-[2rem]">
@@ -28,7 +28,7 @@ const HomeRecentEvent = () => {
 
         {/* Event items can be added here in the future */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 place-items-center">
-          {recentEvents.map((event) => (
+          {recentNews.map((event) => (
             <Link
               to={`/events/${event.slug}`}
               key={event.id}
